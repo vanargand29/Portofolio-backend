@@ -10,6 +10,7 @@ build/
 # Dependency directories
 node_modules/
 .wrangler/
+antislop/
 
 # Environment / local configs
 .env
