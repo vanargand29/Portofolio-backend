@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "Golang Backend API for Portfolio running on Cloudflare Workers (WebAssembly)",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const { execSync } = require('child_process'); execSync('go run github.com/syumai/workers-go/cmd/workers-assets-gen -mode=go', { stdio: 'inherit' }); execSync('go build -o ./build/app.wasm .', { stdio: 'inherit', env: { ...process.env, GOOS: 'js', GOARCH: 'wasm' } });\"",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "local": "go run ."
+  },
+  "devDependencies": {
+    "wrangler": "^3.109.2"
+  }
+}

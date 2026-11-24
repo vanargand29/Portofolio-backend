@@ -1,0 +1,21 @@
+# Binaries & build artifacts
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Dependency directories
+node_modules/
+.wrangler/
+
+# Environment / local configs
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Test file yang mengandung plaintext credentials
+admin/auth_test.go

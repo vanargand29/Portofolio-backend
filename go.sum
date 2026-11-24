@@ -1,0 +1,4 @@
+github.com/syumai/workers-go v0.36.0 h1:G00h0CkA8+VgHwtG+XQBWueRDcW4NVmz0yWU3b/GH4M=
+github.com/syumai/workers-go v0.36.0/go.mod h1:nGxyOzoikm2rDoGAduCQucbljH9wjhdk+4Rk4leKCBQ=
+golang.org/x/crypto v0.59.0 h1:xS2jhqYbzNrpvkWP2YTDf4TJwBy3ykR03i8vFDxEc7c=
+golang.org/x/crypto v0.59.0/go.mod h1:veDyUwATGs3c+vN3VfTbzViMGXeTBk3WyhBOkn+F/4U=

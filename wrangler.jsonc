@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio-backend-api",
+  "main": "./build/worker.mjs",
+  "compatibility_date": "2024-04-01",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "api.mocharisandijayanto.my.id",
+      "custom_domain": true
+    },
+    {
+      "pattern": "adminganteng.mocharisandijayanto.my.id/*",
+      "zone_name": "mocharisandijayanto.my.id"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "STORE",
+      "id": "ac830dde9e094ddb84c3194f7a731d47"
+    }
+  ],
+  "build": {
+    "command": "npm run build"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

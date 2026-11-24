@@ -1,0 +1,452 @@
+{
+  "projects": [
+    {
+      "id": "jstore",
+      "number": "#01",
+      "title": "J-Store – Game Currency Store Platform",
+      "subtitle": "High Performance Gaming Store Frontend \u0026 Checkout Flow",
+      "category": "Website",
+      "headerCategory": "GAME STORE",
+      "headerType": "WEB APPLICATION",
+      "urlMock": "jstore-gaming.app",
+      "description": "J-Store adalah platform e-commerce mata uang game modern untuk game populer seperti Genshin Impact. Platform ini menyediakan katalog produk yang responsif, visual interaktif, kalkulasi harga otomatis, dan alur checkout yang aman serta siap integrasi payment gateway.",
+      "features": [
+        "Katalog produk mata uang game dengan filtering kategori instan",
+        "Kalkulasi konversi mata uang dan diskon secara real-time",
+        "Desain antarmuka mobile-first responsif di semua resolusi layar",
+        "Struktur kode modular berbasis standar HTML5, CSS3, dan ES6+"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "/img/jstore(tampilan).png",
+      "github": "#",
+      "isPrivate": true
+    },
+    {
+      "id": "tuberculosis",
+      "number": "#02",
+      "title": "Tuberculosis Expert System – AI Disease Screening",
+      "subtitle": "Clinical Diagnostic Inference Engine via Dempster-Shafer",
+      "category": "Machine Learning",
+      "headerCategory": "HEALTHCARE",
+      "headerType": "EXPERT SYSTEM",
+      "urlMock": "tb-expertsystem.health.id",
+      "description": "Aplikasi sistem pakar skrining gejala Tuberkulosis berbasis web menggunakan inferensi Dempster-Shafer. Menganalisis multi-gejala klinis dan menghitung probabilitas diagnosis secara otomatis untuk membantu keputusan tenaga kesehatan secara akurat.",
+      "features": [
+        "Form input gejala klinis interaktif dengan pembobotan evidensial",
+        "Algoritma inferensi kombinasi Dempster-Shafer secara otomatis",
+        "Visualisasi persentase probabilitas dan confidence score diagnosis (94.6%)",
+        "Rekomendasi penanganan medis dan saran pemeriksaan sputum AFB lanjutan"
+      ],
+      "tech": [
+        "Laravel",
+        "MySQL",
+        "Dempster-Shafer"
+      ],
+      "image": "/img/tuberculosis-preview.svg",
+      "github": "#",
+      "isPrivate": true
+    },
+    {
+      "id": "portfolio",
+      "number": "#03",
+      "title": "Personal Portfolio – Interactive Showcase",
+      "subtitle": "Modern React SPA with Smooth Horizontal Sliding Navigation",
+      "category": "Website",
+      "headerCategory": "PORTFOLIO",
+      "headerType": "PERSONAL WEBSITE",
+      "urlMock": "arisandi-portfolio.netlify.app",
+      "description": "Website portfolio personal berkinerja tinggi dengan navigasi horizontal slider yang mulus, tema dark glassmorphism modern, micro-interactions, modal interaktif, dan filter sertifikasi dinamis.",
+      "features": [
+        "Horizontal snapping track dengan transisi halus dan wheel easing",
+        "Desain modern glassmorphism dengan aksen pendaran merah khas",
+        "Modal showcase interaktif dengan zoom screenshot beresolusi tinggi",
+        "Timeline pengalaman, pendidikan, dan sertifikasi dengan multi-filter",
+        "Formulir kontak terintegrasi mailto siap kirim"
+      ],
+      "tech": [
+        "React",
+        "Responsive UI",
+        "HTML/CSS/JS"
+      ],
+      "image": "/img/porto(tampilan).png",
+      "github": "https://github.com/vanargand29/Portofolio",
+      "isPrivate": false
+    },
+    {
+      "id": "backendApi",
+      "number": "#04",
+      "title": "Backend API \u0026 Admin CRUD – Content Manager",
+      "subtitle": "Headless REST API with Modern Administrative Management",
+      "category": "Backend",
+      "headerCategory": "BACKEND API",
+      "headerType": "REST API \u0026 ADMIN PANEL",
+      "urlMock": "api.arisandi.workers.dev",
+      "description": "Arsitektur REST API lengkap dengan dashboard admin modern untuk manajemen data portfolio secara dinamis. Mendukung operasi CRUD penuh pada data proyek dan sertifikasi dengan endpoint terstruktur dan aman.",
+      "features": [
+        "REST API endpoint terstruktur untuk manajemen proyek dan resume",
+        "Panel admin intuitif untuk operasi CRUD data secara real-time",
+        "Format pertukaran data JSON modular dan terorganisir",
+        "Deployment cepat dan serverless via Cloudflare Workers",
+        "CORS middleware terkonfigurasi untuk komunikasi domain aman"
+      ],
+      "tech": [
+        "Go",
+        "Node.js",
+        "Express",
+        "Cloudflare Workers"
+      ],
+      "image": "/img/adminAPI.png",
+      "github": "#",
+      "isPrivate": true
+    }
+  ],
+  "experiences": [
+    {
+      "id": "ruangguru-bootcamp",
+      "date": "Feb 2022 - Jul 2022",
+      "title": "Front-End Engineering Bootcamp",
+      "organization": "Ruangguru",
+      "description": "Program Magang \u0026 Studi Independen Bersertifikat (MSIB) Front-End Engineering di PT Ruang Raya Indonesia.",
+      "details": "Kerja kolaboratif dengan Git \u0026 GitHub Version Control, Pemrograman modern Front-End JavaScript dan CSS, Component Programming dengan React, SSR Framework dengan Next.js, API Integration \u0026 Authentication, Identity Management, Performance Optimization, dan Dasar-dasar Project Management tim Scrum.",
+      "tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "REST API",
+        "Cloud Deployment"
+      ],
+      "certHref": "https://drive.google.com/file/d/1_VLbu0URknhletqkEBRfFKFjgb0I5SWH/view?usp=sharing",
+      "iconType": "code"
+    },
+    {
+      "id": "dicoding-multiplatform",
+      "date": "Agu 2021 - Jan 2022",
+      "title": "Pengembang Android \u0026 Multi-Platform",
+      "organization": "Dicoding",
+      "description": "Program Magang \u0026 Studi Independen Bersertifikat (MSIB) Pengembang Aplikasi Android \u0026 Multi-Platform di PT Presentologics.",
+      "details": "Menyelesaikan kurikulum terakreditasi: Programming Logic 101, Git with GitHub, Prinsip Pemrograman SOLID, Pemrograman Android Native dengan Kotlin, Android Architecture Components, Pemrograman Multi-Platform dengan Dart \u0026 Flutter, serta implementasi fundamental state management.",
+      "tags": [
+        "Android",
+        "Kotlin",
+        "Flutter",
+        "Dart",
+        "SOLID Principles"
+      ],
+      "certHref": "https://drive.google.com/file/d/1_VLbu0URknhletqkEBRfFKFjgb0I5SWH/view?usp=sharing",
+      "iconType": "mobile"
+    }
+  ],
+  "educations": [
+    {
+      "id": "unej-s1-informatika",
+      "date": "2019 - 2026",
+      "title": "Universitas Jember",
+      "institution": "Universitas Jember",
+      "major": "S1 Informatika",
+      "description": "Fakultas Ilmu Komputer · Jurusan Informatika",
+      "details": "Menempuh pendidikan Sarjana Informatika dengan konsentrasi Software Engineering dan Web Technologies. Menguasai fondasi algoritma, struktur data, kecerdasan buatan, sistem pakar, serta metodologi pengembangan perangkat lunak modern. Berperan aktif dalam kegiatan kemahasiswaan dan riset sistem skrining kesehatan.",
+      "gpa": "IPK: 3.66",
+      "tags": [
+        "Software Engineering",
+        "Algorithms",
+        "Expert Systems",
+        "Web Tech"
+      ],
+      "iconType": "academic"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "category": "web",
+      "title": "Belajar Prinsip Pemrograman SOLID",
+      "issuer": "Dicoding · Sep 2021 - Sep 2024",
+      "href": "https://drive.google.com/file/d/1VRFvSJX5APotzU-_9D_mEFUt5u0bZ5wc/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 2,
+      "category": "web",
+      "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+      "issuer": "Dicoding · Agu 2021 - Agu 2024",
+      "href": "https://drive.google.com/file/d/1JhGlB35VcKGWDbACk3QzuZfwuLwzQapT/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 3,
+      "category": "web",
+      "title": "Meniti Karier sebagai Software Developer",
+      "issuer": "Dicoding · Nov 2021 - Nov 2024",
+      "href": "https://drive.google.com/file/d/1HCuuSX4LltX2cWZfHTWx1t5tGyaWIW4p/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 4,
+      "category": "web",
+      "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+      "issuer": "Dicoding · Agu 2021 - Agu 2024",
+      "href": "https://drive.google.com/file/d/1LixSChwz9x03v6I027aSWIbXeEI06-gL/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 5,
+      "category": "web",
+      "title": "Belajar Dasar Git dengan GitHub",
+      "issuer": "Dicoding · Agu 2021 - Agu 2024",
+      "href": "https://drive.google.com/file/d/1Oe6B5Be3PeGaJZL19nAZKFK6cV5FAclI/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 6,
+      "category": "web",
+      "title": "Memulai Pemrograman dengan Java",
+      "issuer": "Dicoding · Sep 2021 - Sep 2024",
+      "href": "https://drive.google.com/file/d/1v0neI6kmb9OrwpYVjXPTKkC6OiyYq-pU/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 7,
+      "category": "web",
+      "title": "Memulai Pemrograman dengan C",
+      "issuer": "Dicoding · Nov 2021 - Nov 2024",
+      "href": "https://drive.google.com/file/d/1BVYlhSuJLyXdw9QmX8X_XL0uA0xbSq-J/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 8,
+      "category": "web",
+      "title": "Data Wrangling Python",
+      "issuer": "DQLab · Sep 2020",
+      "href": "https://drive.google.com/file/d/1qQ4nTNk8F7ycVaFmIb1CBxd4CIEigFk1/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 9,
+      "category": "web",
+      "title": "Python Fundamental for Data Science",
+      "issuer": "DQLab · Sep 2020",
+      "href": "https://drive.google.com/file/d/1Bj0zoJrEh3y4msDdMQuuQdKyoDtbfJv-/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 10,
+      "category": "web",
+      "title": "Introduction to Data Science with Python",
+      "issuer": "DQLab · Sep 2020",
+      "href": "https://drive.google.com/file/d/1mV0MKtpWvwzO0M2TIG2xUfozfHG_jJ__/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 11,
+      "category": "mobile",
+      "title": "Belajar Fundamental Aplikasi Android",
+      "issuer": "Dicoding · Nov 2021 - Nov 2024",
+      "href": "https://drive.google.com/file/d/1DYjhbRzIbPWvSJXVwGB58BudZIDHhtKA/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 12,
+      "category": "mobile",
+      "title": "Belajar Membuat Aplikasi Android untuk Pemula",
+      "issuer": "Dicoding · Okt 2021 - Okt 2024",
+      "href": "https://drive.google.com/file/d/10jI_CR6JIFi9EeGPCbQS0PDhqvWKKynp/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 13,
+      "category": "mobile",
+      "title": "Memulai Pemrograman dengan Kotlin",
+      "issuer": "Dicoding · Sep 2021 - Sep 2024",
+      "href": "https://drive.google.com/file/d/1nq8K1_KJ1TL-4KwzBdhvy4itGSNR3Lq2/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 14,
+      "category": "mobile",
+      "title": "Belajar Membuat Aplikasi Flutter untuk Pemula",
+      "issuer": "Dicoding · Des 2021 - Des 2024",
+      "href": "https://drive.google.com/file/d/1X7FG1pKasimesa9TXRkw65YkyDqcOntu/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 15,
+      "category": "mobile",
+      "title": "Memulai Pemrograman dengan Dart",
+      "issuer": "Dicoding · Okt 2021 - Okt 2024",
+      "href": "https://drive.google.com/file/d/18HU5A7xkrqFwWSVeOqjkQx8n_oCSM1zI/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 16,
+      "category": "mobile",
+      "title": "Belajar Fundamental Aplikasi Flutter",
+      "issuer": "Dicoding · Jan 2022 - Jan 2025",
+      "href": "https://drive.google.com/file/d/1fSXTTTgbg941SOylZNneZLFyDF3Ow66x/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 17,
+      "category": "soft",
+      "title": "Certificate of Casual Conversation",
+      "issuer": "Dicoding",
+      "href": "https://drive.google.com/file/d/1MYHPy-gIxt-CEFRPrYRcMSapEDrw_W7J/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 18,
+      "category": "soft",
+      "title": "Peningkatan Produktivitas dan Peluang Berwirausaha di Masa Covid-19",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/175LJwm6Xr-BGTvJgb4zDWCN07qiUwlVU/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 19,
+      "category": "soft",
+      "title": "Seminar Bisnis Konsultasi Mahasiswa Preneur",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/1FIP4NG2p1jUzS-RrwGXUOMebF14knFOF/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 20,
+      "category": "soft",
+      "title": "Mengenali Diri Bekal Mendasar dalam Beradaptasi",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/1jg2CC2ARRswOiKuFDjmVESx_-bp3JHBn/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 21,
+      "category": "seminar",
+      "title": "AWS x Dicoding LIVE: Storage dan Database di AWS",
+      "issuer": "Dicoding",
+      "href": "https://drive.google.com/file/d/1k1kHb9XgD_PlxNRfE-NhJLgmsLPZYmEI/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 22,
+      "category": "seminar",
+      "title": "SPOGISFY (Sharing of GIS Laboratory)",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/1mrAlZqu4eGOSRyt3s1UibYBgJ22axAN8/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 23,
+      "category": "seminar",
+      "title": "YOTClass Design (Create Your Idea With CorelDraw)",
+      "issuer": "Workshop",
+      "href": "https://drive.google.com/file/d/1nH_M1WofuvZs_hgqAxocsVi7_fHgfIwq/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 24,
+      "category": "seminar",
+      "title": "POSTGRE (Pemro Share Talk \u0026 Greet)",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/1Y4eYLpQLebnkgKGxJeuoUnyim6Gr-C0j/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 25,
+      "category": "seminar",
+      "title": "ICOMITEE 2021 dan Workshop Bedah Artikel Ilmiah",
+      "issuer": "Workshop",
+      "href": "https://drive.google.com/file/d/15-8LCCVdOQY5VR8JeE5R9NF94TuBckLX/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 26,
+      "category": "seminar",
+      "title": "Compiler Algorithm Training",
+      "issuer": "Training",
+      "href": "https://drive.google.com/file/d/1S6IPfc5RJjWJaOEo_kNPY1R3UXXkyRyj/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 27,
+      "category": "seminar",
+      "title": "Upaya Restorasi oleh Pemerintah dalam Menghadapi Dampak Covid-19",
+      "issuer": "Seminar",
+      "href": "https://drive.google.com/file/d/1r1M3nB1EY2CiGeFYXW0qCItq6j64StTI/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 28,
+      "category": "seminar",
+      "title": "Weekend Tech Talk (Let's Learn Brainstorming Technique)",
+      "issuer": "Tech Talk",
+      "href": "https://drive.google.com/file/d/16NQhmK1qGERSjmfrVpgO9nG7AWuSZ5_6/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 29,
+      "category": "organization",
+      "title": "Sie Perlengkapan - Pembinaan dan Pengembangan Mahasiswa Baru (PPMB)",
+      "issuer": "Universitas Jember",
+      "href": "https://drive.google.com/file/d/1vFxXB_0YLc1sN1OAbykdVWlZq7zO3d6V/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 30,
+      "category": "organization",
+      "title": "Sie Perlengkapan - Friendship Competition 2021",
+      "issuer": "Universitas Jember",
+      "href": "https://drive.google.com/file/d/1NekwzDWqm6_Ju-q5UJzpI2-U2mj8OeAe/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 31,
+      "category": "organization",
+      "title": "Sie Acara - Pengenalan Kehidupan Kampus bagi Mahasiswa Baru (PKKMB)",
+      "issuer": "Universitas Jember",
+      "href": "https://drive.google.com/file/d/1Nteu6F9xOwutVoRPCjWbevjxg1PxSdhV/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 32,
+      "category": "lomba",
+      "title": "Capture The Flag (CTF)",
+      "issuer": "Competition",
+      "href": "https://drive.google.com/file/d/1s_Gb1Zb6FyhTLMeMOukq9htpXJ_hSvQX/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 33,
+      "category": "lomba",
+      "title": "Laos Arena",
+      "issuer": "Competition",
+      "href": "https://drive.google.com/file/d/14fSKWLw2nZOXoByNRiOhvF-L5r9Ll-EU/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 34,
+      "category": "lomba",
+      "title": "Competitive Programming Competition",
+      "issuer": "Competition",
+      "href": "https://drive.google.com/file/d/1bszmDafdBi2UCQ-FXZPWL77l7q6B5BMQ/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 35,
+      "category": "lomba",
+      "title": "Festival Menulis Surat Nasional",
+      "issuer": "Competition",
+      "href": "https://drive.google.com/file/d/1FiCoTd1jcPXWHtXCxQ-dw-G_sHBrYAvf/view?usp=sharing",
+      "isVerified": true
+    },
+    {
+      "id": 36,
+      "category": "lomba",
+      "title": "Menulis puisi bertema Cinta",
+      "issuer": "Competition",
+      "href": "https://drive.google.com/file/d/1WL_ldvceOhM6bzpgVwN3lWlk-3l4D21l/view?usp=sharing",
+      "isVerified": true
+    }
+  ]
+}
