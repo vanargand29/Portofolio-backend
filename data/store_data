@@ -21,7 +21,7 @@
         "CSS",
         "JavaScript"
       ],
-      "image": "/img/jstore(tampilan).png",
+      "image": "/img/jstore(tampilan).webp",
       "github": "#",
       "isPrivate": true
     },
@@ -72,7 +72,7 @@
         "Responsive UI",
         "HTML/CSS/JS"
       ],
-      "image": "/img/porto(tampilan).png",
+      "image": "/img/porto(tampilan).webp",
       "github": "https://github.com/vanargand29/Portofolio",
       "isPrivate": false
     },
@@ -99,7 +99,7 @@
         "Express",
         "Cloudflare Workers"
       ],
-      "image": "/img/adminAPI.png",
+      "image": "/img/adminAPI.webp",
       "github": "#",
       "isPrivate": true
     }

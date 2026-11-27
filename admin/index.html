@@ -1282,13 +1282,54 @@ Klik "SEND" untuk memanggil endpoint...
       const originalHTML = btn ? btn.innerHTML : '';
       if (btn) {
         btn.disabled = true;
-        btn.innerHTML = `<span class="inline-block animate-spin mr-1">⏳</span> Mengunggah...`;
+        btn.innerHTML = `<span class="inline-block animate-spin mr-1">⏳</span> Mengoptimasi & Mengunggah...`;
       }
-      showToast('Mengunggah gambar ke Cloudflare KV...', 'info');
+      showToast('Mengoptimasi gambar ke WebP dan menyimpan ke Cloudflare KV...', 'info');
 
       try {
+        // Otomatis konversi gambar ke WebP (ringan & cepat untuk frontend)
+        let uploadFile = file;
+        if (file.type && file.type.startsWith('image/') && file.type !== 'image/svg+xml') {
+          try {
+            const webpBlob = await new Promise((resolve) => {
+              const img = new Image();
+              img.onload = () => {
+                const canvas = document.createElement('canvas');
+                let width = img.width;
+                let height = img.height;
+                const maxDim = 1440;
+                if (width > maxDim || height > maxDim) {
+                  if (width > height) {
+                    height = Math.round((height * maxDim) / width);
+                    width = maxDim;
+                  } else {
+                    width = Math.round((width * maxDim) / height);
+                    height = maxDim;
+                  }
+                }
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, width, height);
+                canvas.toBlob((blob) => {
+                  resolve(blob || file);
+                }, 'image/webp', 0.82);
+              };
+              img.onerror = () => resolve(file);
+              img.src = URL.createObjectURL(file);
+            });
+
+            if (webpBlob && webpBlob.type === 'image/webp') {
+              const cleanName = file.name.replace(/\.[^/.]+$/, "") + ".webp";
+              uploadFile = new File([webpBlob], cleanName, { type: 'image/webp' });
+            }
+          } catch (convErr) {
+            console.warn('WebP conversion fallback:', convErr);
+          }
+        }
+
         const formData = new FormData();
-        formData.append('file', file);
+        formData.append('file', uploadFile);
 
         const res = await fetch('/api/upload', {
           method: 'POST',
@@ -1299,7 +1340,7 @@ Klik "SEND" untuk memanggil endpoint...
         if (res.ok && json.status === 'success' && json.data?.url) {
           document.getElementById('proj-image').value = json.data.url;
           updateImagePreview();
-          showToast('Gambar berhasil disimpan ke Cloudflare KV!');
+          showToast('Gambar WebP berhasil disimpan ke Cloudflare KV!');
         } else {
           showToast(json.message || 'Gagal mengunggah gambar', 'error');
         }
